@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/caae5a122f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./image/logo1.png"  class="logo" alt="logo">
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#protfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Web</span> Developer</p>
+                <h1>Hi, I'm <span>Taha </span><br>Siddiqui From Mumbai</h1>
+            </div>
+        </div>
+    </div>
+<!----------------------------------------------about--------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="image/2sd.jpg"  alt="My pic">
+               </div>
+               <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am <b>Siddiqui Taha </b> pursuing 3rd year Electronics and Computer Science Engineering Student passionate about learning full stack
+                web devlopment currently learning frontend which includes HTML,CSS,Javascript,bootstrap and jquery in addition to this I
+                have knowledge of programming languages and tech stacks such as  wordpress,php,python,Mysql. Apart from this I have recreated
+                some websites clone such as amazon,netflix and creating project related to the javascript. I have done cirtification on
+                python and javascript from udemy and knowledge gate.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML/CSS/JS</span><BR>Designing full web interface</li>
+                        <li><span>JQUERY</span><BR>Ability to write efficient and maintainable jQuery code</li>
+                        <li><span>WORDPRESS</span><br>Experience with using WordPress themes, plugins, and widgets to extend the functionality of WordPress websites.</li>    
+                        <li><span>BOOTSTRAP</span><BR>Expertise in Bootstrap, a front-end CSS framework that makes it easy to create responsive, mobile-first websites and web applications.</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Front-end</span><BR>HTML/CSS/JS certificate From udemy, great learning</li>
+                        <li><span>WORDPRESS</span><BR>Make many website for college projet & certified from udemy</li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - current</span><BR>BE pursuing in ECS 3rd year From AIKTC</li>
+                        <li><span>2019 - 2022</span><BR>Diploma in EXTC From ST Xavier's Technical Institute</li>
+                        <li><span>2019</span><BR>10th passed Maharashtra State Board From dnyandeep convent school</li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------services-------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way
+                that is functional and offers a good user experience. User experience is central to the web designing process.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design refers to the practice of designing the user interface (UI) and user experience (UX) of digital products
+                such as websites, mobile apps, and software applications. These two components are closely related but serve different
+                purposes: User Interface (UI).</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>App development refers to the process of creating software applications (commonly referred to as "apps") for various
+                computing platforms, such as mobile devices, desktop computers, web browsers, or even embedded systems. App development
+                typically involves several stages, including</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--------------------------------portfolio--------------------->
+<div id="protfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./image/image6.jpg" width="450px" height="390px" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quisquam.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/image3.jpg" width="450px" height="390px" alt="">
+                <div class="layer">
+                    <h3>Online Shopping</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quisquam.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/image4.jpg" width="450px" height="390px" alt="">
+                <div class="layer">
+                    <h3>Image Gallery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quisquam.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------------Contact--------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> taha.siddiqui312@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91-8655551270</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/taha.siddiqui.311" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://x.com/mrtaha23?t=fzzsPDPSGums4pzOkZqzEw&s=08" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/mr.taha23?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/taha-siddiqui-751325245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="RESUME/Mohd Taha CV Resume.pdf"  class="btn btn2" target="_blank">DOWNLOAD CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input class="col" type="text" name="Name" placeholder="Your Name" required>
+                    <input class="col" type="email" name="Email" placeholder="Your Email">
+                    <textarea class="col" name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2 "style="margin-left: 5px;" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <footer>
+        <p>Copyright &copy; 2023 Taha Siddiqui </p>
+        </footer>
+    </div>
+</div>
+    <script src="main.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyphdjxx6dkAr18CHHNZMp6B-ucGwtMmdI8a02QeMN7ZzldrNu4K8MsqBnqOtqphGKYjg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response =>{
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+</body>
+</html>
